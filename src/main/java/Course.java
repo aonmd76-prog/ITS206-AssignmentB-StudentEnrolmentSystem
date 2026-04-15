@@ -1,10 +1,11 @@
 package main.java;
 
+// Course class
 public class Course {
     private String code;
     private String name;
     private int capacity;
-    private String prerequisite; // ✅ added
+    private String prerequisite;
 
     public Course(String code, String name, int capacity, String prerequisite) {
         this.code = code;
