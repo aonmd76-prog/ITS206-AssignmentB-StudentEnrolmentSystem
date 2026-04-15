@@ -1,10 +1,11 @@
 package main.java;
 
+// Student class
 public class Student {
     private String id;
     private String name;
     private String email;
-    private String completedCourse; // ✅ added
+    private String completedCourse;
 
     public Student(String id, String name, String email, String completedCourse) {
         this.id = id;
