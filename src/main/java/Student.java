@@ -1,0 +1,23 @@
+package main.java;
+
+public class Student {
+    private String id;
+    private String name;
+    private String email;
+    private String completedCourse; // ✅ added
+
+    public Student(String id, String name, String email, String completedCourse) {
+        this.id = id;
+        this.name = name;
+        this.email = email;
+        this.completedCourse = completedCourse;
+    }
+
+    public String getCompletedCourse() {
+        return completedCourse;
+    }
+
+    public void display() {
+        System.out.println(id + " " + name + " " + email);
+    }
+}
