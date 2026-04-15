@@ -1,5 +1,6 @@
 package main.java;
 
+// Enrolment logic
 public class Enrolment {
     private Student student;
     private Course course;
@@ -7,7 +8,6 @@ public class Enrolment {
 
     public Enrolment(Student student, Course course, String date) {
 
-        // ✅ prerequisite check
         if (course.getPrerequisite().equals(student.getCompletedCourse())
                 || course.getPrerequisite().equals("None")) {
 
@@ -15,10 +15,10 @@ public class Enrolment {
             this.course = course;
             this.date = date;
 
-            System.out.println("✅ Enrolment successful");
+            System.out.println("Enrolment successful");
 
         } else {
-            System.out.println("❌ Prerequisite not completed. Cannot enrol.");
+            System.out.println("Prerequisite not completed. Cannot enrol.");
         }
     }
 
