@@ -15,7 +15,7 @@ public class Enrolment {
             this.course = course;
             this.date = date;
 
-            System.out.println("Enrolment successful");
+            System.out.println("Enrolment successful!");
 
         } else {
             System.out.println("Prerequisite not completed. Cannot enrol.");
