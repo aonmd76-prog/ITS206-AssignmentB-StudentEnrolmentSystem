@@ -6,3 +6,4 @@ Features:
 - Student and Course management
 - Enrolment system
 - Prerequisite checking
+- Updated documentation formatting.
