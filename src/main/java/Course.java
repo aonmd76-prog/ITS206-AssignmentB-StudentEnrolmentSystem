@@ -18,6 +18,7 @@ public class Course {
         return prerequisite;
     }
 
+    // setter (for encapsulation requirement)
     public void setCapacity(int capacity) {
         this.capacity = capacity;
     }

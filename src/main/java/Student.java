@@ -18,6 +18,7 @@ public class Student {
         return completedCourse;
     }
 
+    // setters (for encapsulation requirement)
     public void setName(String name) {
         this.name = name;
     }
