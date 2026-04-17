@@ -10,11 +10,11 @@ public class Main {
 
         // Courses
         Course c1 = new Course("C1", "Advanced Java", 2, "Java");
-        Course c2 = new Course("C2", "Math", 3, "Java"); // ❗ changed here
+        Course c2 = new Course("C2", "Math", 3, "Java");
 
         // Enrolments
-        Enrolment e1 = new Enrolment(s1, c1, "2026-04-14"); // ✅ should pass
-        Enrolment e2 = new Enrolment(s2, c2, "2026-04-14"); // ❌ should fail
+        Enrolment e1 = new Enrolment(s1, c1, "2026-04-14");
+        Enrolment e2 = new Enrolment(s2, c2, "2026-04-14");
 
         // Display
         e1.display();
