@@ -18,6 +18,10 @@ public class Course {
         return prerequisite;
     }
 
+    public void setCapacity(int capacity) {
+        this.capacity = capacity;
+    }
+
     public void display() {
         System.out.println(code + " " + name + " Capacity: " + capacity);
     }
